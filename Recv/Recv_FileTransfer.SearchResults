@@ -1,0 +1,22 @@
+---- m_OnRecvFileFail Matches (21 in 2 files) ----
+TcpServer.cpp:    m_OnRecvFileFail = NULL;
+TcpServer.cpp:    pServerClientSocket->SetOnRecvFileFail(m_OnRecvFileFail);
+TcpServer.cpp:    m_OnRecvFileFail = OnRecvFileFail;
+TcpServer.cpp:    m_OnRecvFileFail = NULL;
+TcpServer.cpp:    m_OnRecvFileFail = OnRecvFileFail;
+TcpServer.cpp:    m_pFileRecver->SetOnRecvFileFail(m_OnRecvFileFail);
+TcpServer.cpp:    m_OnRecvFileFail = NULL;
+TcpServer.cpp:    m_OnRecvFileFail = OnRecvFileFail;
+TcpServer.cpp:        if(m_OnRecvFileFail != NULL)
+TcpServer.cpp:            m_OnRecvFileFail(m_pNotifyObj, m_szPathName, RFFR_RECVERFAIL);
+TcpServer.cpp:        if(m_OnRecvFileFail != NULL)
+TcpServer.cpp:            m_OnRecvFileFail(m_pNotifyObj, m_szPathName, RFFR_RECVERFAIL);
+TcpServer.cpp:    if(m_OnRecvFileFail != NULL)
+TcpServer.cpp:        m_OnRecvFileFail(m_pNotifyObj, m_szPathName, RFFR_RECVERFAIL);
+TcpServer.cpp:    if(m_OnRecvFileFail != NULL)
+TcpServer.cpp:        m_OnRecvFileFail(m_pNotifyObj, m_szPathName, RFFR_RECVERCANCEL);
+TcpServer.cpp:    if(m_OnRecvFileFail != NULL)
+TcpServer.cpp:        m_OnRecvFileFail(m_pNotifyObj, m_szPathName, RFFR_RECVERFAIL);
+TcpServer.h:    RecvFileFailFun                        m_OnRecvFileFail;
+TcpServer.h:    RecvFileFailFun                        m_OnRecvFileFail;
+TcpServer.h:    RecvFileFailFun                        m_OnRecvFileFail;

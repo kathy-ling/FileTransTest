@@ -1,0 +1,38 @@
+# Microsoft Developer Studio Generated Dependency File, included by Send.mak
+
+.\Send.cpp : \
+	".\Send.h"\
+	".\SendDlg.h"\
+	".\TcpClient.h"\
+	".\Thread.h"\
+	
+
+.\Send.rc : \
+	".\res\Send.ico"\
+	".\res\Send.rc2"\
+	
+
+.\SendDlg.cpp : \
+	".\Send.h"\
+	".\SendDlg.h"\
+	".\TcpClient.h"\
+	".\Thread.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	".\zlib\ioapi.h"\
+	".\zlib\unzip.h"\
+	".\zlib\zip.h"\
+	".\zlib\zlib.h"\
+	"d:\vc98\include\basetsd.h"\
+	
+
+.\TcpClient.cpp : \
+	".\TcpClient.h"\
+	".\Thread.h"\
+	
+
+.\Thread.cpp : \
+	".\Thread.h"\
+	

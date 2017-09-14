@@ -1,0 +1,4 @@
+---- SendFileFailReason Matches (3 in 3 files) ----
+SendDlg.cpp:	strInfo.Format("OnSendFileFail,SendFileFailReason = %d", SendFileFailReadson);
+SendDlg.h:	static void OnSendFileFail(void *pNotifyObj, char *szPathName, EMSendFileFailReason SendFileFailReason);
+TcpClient.h:typedef void (*SendFileFailFun)(void *pNotifyObj, char *szPathName, EMSendFileFailReason SendFileFailReason);

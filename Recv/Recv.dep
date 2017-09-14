@@ -1,0 +1,44 @@
+# Microsoft Developer Studio Generated Dependency File, included by Recv.mak
+
+.\Recv.cpp : \
+	".\Recv.h"\
+	".\RecvDlg.h"\
+	".\TcpServer.h"\
+	".\Thread.h"\
+	
+
+.\Recv.rc : \
+	".\res\Recv.ico"\
+	".\res\Recv.rc2"\
+	
+
+.\RecvDlg.cpp : \
+	".\Recv.h"\
+	".\RecvDlg.h"\
+	".\SysUtils.h"\
+	".\TcpServer.h"\
+	".\Thread.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	".\zlib\ioapi.h"\
+	".\zlib\unzip.h"\
+	".\zlib\zip.h"\
+	".\zlib\zlib.h"\
+	"d:\vc98\include\basetsd.h"\
+	
+
+.\SysUtils.cpp : \
+	".\SysUtils.h"\
+	
+
+.\TcpServer.cpp : \
+	".\SysUtils.h"\
+	".\TcpServer.h"\
+	".\Thread.h"\
+	
+
+.\Thread.cpp : \
+	".\Thread.h"\
+	

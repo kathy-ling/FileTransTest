@@ -1,0 +1,9 @@
+﻿  RecvDlg.cpp
+RecvDlg.cpp(119): warning C4002: “ON_BN_CLICKED”宏的实参太多
+RecvDlg.cpp(373): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+RecvDlg.cpp(385): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850): note: 参见“inet_addr”的声明
+RecvDlg.cpp(441): warning C4018: “<”: 有符号/无符号不匹配
+  Recv.vcxproj -> C:\Users\Administrator\Desktop\Recv(1)\Recv\.\Debug\Recv.exe
+  Recv.vcxproj -> .\Debug\Recv.pdb (Full PDB)

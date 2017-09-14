@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Recv - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP9B65.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Recv.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\Recv(1)\Recv\RecvDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Administrator\AppData\Local\Temp\RSP9B65.tmp" 
+<h3>Output Window</h3>
+Compiling...
+RecvDlg.cpp
+c:\users\administrator\desktop\recv(1)\recv\recvdlg.cpp(4) : fatal error C1853: 'Debug/Recv.pch' is not a precompiled header file created with this compiler
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+RecvDlg.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
